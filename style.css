@@ -2,8 +2,8 @@ body {
   margin: 0;
   background: #fff;
   font-family: Ariel, Helvetica;
-  font-size: small;
-  color: #222;
+  color: #000;
+  font-size: 13px;
 }
 
 div#logo {
@@ -14,18 +14,22 @@ div#logo {
 
 div#navbar {
   height: 40px;
-  line-height: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
+  line-height: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
   justify-content: space-between;
 }
 
 div#navbar a {
-  padding-left: 5px;
-  padding-right: 5px;
-  font-size: 15px;
-  color: #666;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-decoration: none;
+  color: #222;
+}
+
+div#navbar a:hover {
+  text-decoration: underline;
 }
 
 .ctr {
@@ -53,4 +57,24 @@ div#buttons {
 button {
   color: #444;
   padding: 5px 15px;
+}
+
+div#footer {
+  height: 40px;
+  line-height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div#footer a {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  color: #555;
+}
+
+div#footer a:hover {
+  text-decoration: underline;
 }
