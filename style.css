@@ -79,7 +79,7 @@ div#buttons {
 }
 
 .flatbutton:hover {
-  border: 0.5px solid #AAA;
+  border: 0.5px solid #aaa;
   color: #222;
 }
 
@@ -87,7 +87,7 @@ div#footer {
   height: 40px;
   line-height: 40px;
 
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   width: 100%;
   bottom: 0;
   position: absolute;
