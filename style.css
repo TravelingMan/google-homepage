@@ -2,7 +2,7 @@ body {
   margin: 0;
   background: #fff;
   font-family: Ariel, Helvetica;
-  color: #000;
+  color: #333;
   font-size: 13px;
 }
 
@@ -11,7 +11,7 @@ div#content {
 }
 
 div#logo {
-  margin-top: 89px;
+  margin-top: 140px;
   text-align: center;
   height: 120px;
 }
@@ -41,42 +41,59 @@ div#navbar a:hover {
 }
 
 div#searchbar {
-  width: 400px;
+  width: 480px;
   margin: 0 auto;
 }
 
 input {
-  width: 400px;
-  height: 30px;
+  width: 480px;
+  height: 40px;
   margin-bottom: 10px;
-  box-shadow: 1px 2px #ccc;
+  box-shadow: 0px 1px 4px 2px #e3e3e3;
+  border: 0.5px solid #d6d6d6;
+  border-radius: 3px;
 }
 
 div#buttons {
   padding: 10px;
   width: 260px;
   margin: 0 auto;
+  display: flex;
 }
 
-button {
-  color: #444;
-  padding: 5px 15px;
+.flatbutton {
+  color: #757575;
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin-right: 10px;
+  width: 200px;
+  border: 0.5px solid #f4f4f4;
+  border-radius: 3px;
+  box-shadow: 0px 0px 0px 0px #fff;
+}
+
+.flatbutton:hover {
+  border: 0.5px solid #AAA;
+  color: #222;
 }
 
 div#footer {
   height: 40px;
   line-height: 40px;
-  
-  background-color: #EEE;
+
+  background-color: #eee;
   width: 100%;
   bottom: 0;
   position: absolute;
-  border-top: 1px solid #DDD;
+  border-top: 1px solid #ddd;
 }
 
 div#footerbar {
   margin-left: 20px;
-  margin-right:20px;
+  margin-right: 20px;
   display: flex;
   justify-content: space-between;
 }
